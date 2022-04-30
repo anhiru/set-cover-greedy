@@ -1,0 +1,2 @@
+# set-cover-greedy
+CS170 PROJECT: PENGUIN DEFENSE
