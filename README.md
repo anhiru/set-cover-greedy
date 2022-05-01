@@ -1,5 +1,14 @@
 # set-cover-greedy
 
+## Overview 
+
+This approximate solution to the [NP-complete](https://en.wikipedia.org/wiki/NP-completeness) 
+set cover problem was built off the provided [CS170 Project Skeleton](https://github.com/Berkeley-CS170/project-sp22-skeleton). 
+Our algorithm utilizes a greedy approach with tie-breaking optimizations to 
+determine tower placements that aim to minimize total penalty accumulated.
+
+_Contributors: Andrew Tran, Elizabeth Yeh, Jason Zhao_
+
 ## Requirements
 
 A Python skeleton is available in the `python` subdirectory. The Python
