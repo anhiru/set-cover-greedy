@@ -10,7 +10,7 @@ from pathlib import Path
 import sys
 from typing import Callable, Dict
 
-from openpyxl import NUMPY
+# from openpyxl import NUMPY
 
 from instance import Instance
 from point import Point
