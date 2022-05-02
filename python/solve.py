@@ -103,7 +103,7 @@ def solve_greedy(instance: Instance) -> Solution:
         max_towers = get_max_service_towers(dim)
         min_tower = get_min_penalty_tower(max_towers)
         towers.append(min_tower)
-        update_penalty(r_p, min_tower)
+        update_penalty(min_tower, r_p)
         covered = get_cities_covered(min_tower, cities, r_s, dim)
         update_service(covered, r_s, -1)  # decrement service areas of each covered city -1
         cities = [c for c in cities if c not in covered]  # pop covered cities from cities
